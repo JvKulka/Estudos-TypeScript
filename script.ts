@@ -45,7 +45,7 @@ function toNumber(value: number | string) {
   } else if (typeof value === "string") {
     return Number(value);
   } else {
-    throw "value deve ser um número ou uma string";
+    throw "value deve ser um número ou uma strigitng";
   }
 }
 
